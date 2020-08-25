@@ -1,0 +1,31 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 980px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: whitesmoke;
+  padding: 15px 50px 0px;
+  height: 400px;
+  width: 200px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.icon {
+  height: 300px;
+  background-image: url("0-sprite.png");
+}
