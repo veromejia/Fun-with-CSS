@@ -7,25 +7,38 @@ ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  width: 980px;
+  width: 950px;
 }
 
 li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: serif, 'Times New Roman', Times;
+  font-size: 2.5rem;
+  font-weight: bolder;
   background-color: whitesmoke;
-  padding: 15px 50px 0px;
-  height: 400px;
-  width: 200px;
+  padding: 10px 20px;
+  height: 450px;
+  width: 240px;
   border: 2px solid gray;
   border-radius: 15px;
 }
 
 .icon {
-  height: 300px;
+  height: 330px;
+  padding-top: 35px;
   background-image: url("0-sprite.png");
+}
+
+.i-html {
+background-position: 3%;
+}
+
+.i-css {
+  background-position: 50%;
+}
+
+.i-js {
+  background-position: 97%;
 }
