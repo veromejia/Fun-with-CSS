@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    position: relative;
+    color: rgba(158, 28, 28, 0.89);
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background-color: rgba(158, 28, 28, 0.89);
+    transition: all 0.4s ease-in-out;
+  }
+
+  a:hover::before {
+    width: 100%;
+  }
